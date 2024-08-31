@@ -46,7 +46,7 @@ function Projects(){
 function ProjectCard(props){
     return(
         <>
-        <div className="project-card">
+        <div onClick={props.function} className="project-card">
             <img onClick={props.function} src={props.img} alt="" />
             <h2 style={{color : props.color}}>{props.name}</h2>
             <p style={{color : props.color}}>{props.description}</p>
