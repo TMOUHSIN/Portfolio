@@ -1,6 +1,6 @@
 import python from './assets/Python.png'
 import java from './assets/java.webp'
-import javascript from './assets/Javascript.png'
+import javascript from './assets/JavaScript.png'
 import typescript from './assets/typscript.png'
 import c from './assets/c.png'
 import dart from './assets/dart.png'
