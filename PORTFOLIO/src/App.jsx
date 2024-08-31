@@ -9,7 +9,8 @@ import Contact from './Contact.jsx';
 import Health from './Health.jsx';
 import HomePage from './HomePage.jsx';
 import Hyatt from './Hyatt.jsx';
-
+import './index.css'
+import './App.css'
 function App() {
   return (
     <Router>
