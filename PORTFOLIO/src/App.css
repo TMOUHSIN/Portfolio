@@ -269,11 +269,11 @@ body {
   }
 
   .service-card h2 {
-    font-size: 10vw; /* Adjust font size for small screens */
+    font-size: 5vw; /* Adjust font size for small screens */
   }
 
   .service-card li {
-    font-size: 6vw; /* Adjust font size for small screens */
+    font-size: 4vw; /* Adjust font size for small screens */
   }
   .Service-cards{
     display: flex;
@@ -457,11 +457,11 @@ body {
   }
 
   .project-card h2 {
-    font-size: 10vw; /* Adjust font size for small screens */
+    font-size: 5vw; /* Adjust font size for small screens */
   }
 
   .project-card p {
-    font-size: 5vw; /* Adjust font size for small screens */
+    font-size: 4vw; /* Adjust font size for small screens */
   }
   .Service-cards{
     display: flex;
