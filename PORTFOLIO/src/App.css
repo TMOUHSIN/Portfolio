@@ -161,10 +161,11 @@ body {
   }
   .about-infos h1{
     text-align: center;
-    font-size: 50px;
+    font-size: 35px;
   }
   .about-infos p{
     text-align: center;
+    font-size: 20px ;
   }
   .about-buttons{
     justify-content: center;
@@ -238,24 +239,28 @@ body {
     margin-left: 5%;
   }
 }
-
 @media (max-width: 768px) {
   .service-card {
-    width: calc(100% - 20px); /* 1 card per row on small screens */
+    width: calc(50% - 20px);
+    padding-right: 10px;
+    padding-left: 0px; /* 1 card per row on small screens */
   }
 
+
   .service-card h2 {
-    font-size: 6vw; /* Adjust font size for small screens */
+    font-size: 5vw; /* Adjust font size for small screens */
   }
 
   .service-card li {
-    font-size: 4vw; /* Adjust font size for small screens */
+    font-size: 3vw; /* Adjust font size for small screens */
   }
   .Service-cards{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px; 
+    margin-left: 0%;
+
   }
 }
 @media (max-width: 425px) {
