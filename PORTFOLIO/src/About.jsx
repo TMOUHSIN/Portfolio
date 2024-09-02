@@ -4,7 +4,7 @@ import picture from './assets/p.svg'
 
 function About(){
     const downloadFile = () => {
-        const url = '/C:\Users\KIRIGAYA\Desktop\portfolio\PORTFOLIO\public\TANANIMOUHSIN_CV.pdf'; // Path to the PDF file in the public directory
+        const url = '/C:\Users\KIRIGAYA\Desktop\portfolio\PORTFOLIO\public\MouhsinTanani_CV.pdf'; // Path to the PDF file in the public directory
         const link = document.createElement('a');
         link.href = url;
         link.download = 'TANANIMOUHSIN_CV.pdf';
